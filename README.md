@@ -1,14 +1,14 @@
 # TI club discord bot
 
-This repository is for the TI Club members to modify and add functionalities to the server bot. This bot will be running in a server that is yet to be decided by the members
+This repository contains all the Discord Bots in the Club TI Server. 
 
 ## Functionalities
-Here is a list of the bots current functionalities
-- None :D
+Here is a list of the bots and their functionalities
+- magIA assistant: class code managment
 
 ## Being developed
-Here is a list of functionalities that are being worked on
-- None Either :D
+Here is a list of bots that are being worked on
+- magIA assitant
 
 ## Creative ideas
 And last but not least, a set of creative ideas proposed by the members that yet to be implemented
@@ -18,9 +18,8 @@ Any other ideas, don't doubt on giving them a try and proposing it to the rest o
 
 ## Other important information
 
-In this case, the `main.py` should be modified at all, to add functionalities, you should build them in separate files that you should load through the `main.py` file. This is just to avoid unexpected crashes.
-Any other question to can ask to the owner of the repository, @alonso284
+Every Bot is contained in their respective folders. Workgroup organization is yet to be discussed
 
-Documentation
-- [https://discordpy.readthedocs.io/en/latest/intro.html](Discord bot Python Documentation)
-- [https://www.json.org/json-en.html](JSON files documentation)
+## Documentation
+- [discord.ext.commands documentation](https://discordpy.readthedocs.io/en/latest/ext/commands/index.html)
+- [json documentation](https://www.json.org/json-en.html)
