@@ -33,10 +33,12 @@ intents.presences = False
 bot = commands.Bot(command_prefix='$')
 
 # fix boot
-""" #boot up
+# boot up
+
+
 @bot.event
 async def on_ready():
-    print('We have logged in as {0.user}'.format(bot)) """
+    print('We have logged in as {0.user}'.format(bot))
 
 """ 
 # @client.event
