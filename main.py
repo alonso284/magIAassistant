@@ -50,6 +50,9 @@ async def on_ready():
 with open('./magIAObject.json') as myObject:
     magIA = json.load(myObject)
 
+with open('./config.json') as myObject:
+    token = json.load(myObject)
+
 
 @bot.command()
 async def ping(ctx):
@@ -125,4 +128,4 @@ async def contactInfo(ctx):
     await ctx.send(content='contacto_magiajuvenil@frskills.com')
 
 
-bot.run('')
+bot.run(token)
