@@ -133,10 +133,10 @@ async def modulo(ctx, modulo=None):
         await ctx.send(embed=discord.Embed(title="Contenido de Modulos de magIA", description=description, colour=discord.Colour.purple()))
 
 # run locally
-with open('./config.json') as myObject:
-    token = json.load(myObject)
+# with open('./config.json') as myObject:
+#     token = json.load(myObject)
 
-bot.run(token)
+# bot.run(token)
 
 # run on heroku
-# bot.run(os.environ.get("DPY_TOKEN"))
+bot.run(os.environ.get("DPY_TOKEN"))
