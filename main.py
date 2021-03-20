@@ -27,7 +27,7 @@ def validate(modulo, dia, magIA):
         return False, 'Tu formato de dia es incorrecto, porfavor intenta de nuevo'
 
     # formato de mes es incorrecto
-    if(not(dia[2:] == 'marzo' or dia[2:] == 'abril' or dia[2:] == 'mayo')):
+    if(not(dia[2:] == 'marzo' or dia[2:] == 'abril' or dia[2:] == 'mayo' or dia[2:] == 'asesoria')):
         return False, 'Tu formato de mes es incorrecto, porfavor intenta de nuevo'
 
     return True, "Se ha salvado exitosamenre"
