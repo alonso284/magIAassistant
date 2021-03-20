@@ -24,3 +24,4 @@ Every Bot is contained in their respective folders. Workgroup organization is ye
 - [discord.ext.commands documentation](https://discordpy.readthedocs.io/en/latest/ext/commands/index.html)
 - [json documentation](https://www.json.org/json-en.html)
 - [heroku documentation](https://devcenter.heroku.com/articles/git#prerequisites-install-git-and-the-heroku-cli)
+- [csv documentation](https://docs.python.org/3/library/csv.html)
